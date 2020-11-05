@@ -18,7 +18,9 @@ html,
   flex-direction: row;
   align-items: center;
 }
-
+.subHeader {
+  margin: 0 0 20px 0;
+}
 li {
   text-align: initial;
 }

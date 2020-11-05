@@ -48,8 +48,9 @@ function App() {
   return (
     <div className="App">
       <Typography style={{padding: 16}} variant="h1">
-        Todo-list with React, Material UI
+        Todo-list
       </Typography>
+      <p className="subHeader"> with React, Material UI</p>
       <TodoForm addTodo={addTodo} />
       <TodoList
         todos={todos}
